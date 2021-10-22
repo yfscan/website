@@ -1,8 +1,8 @@
 import SyntheticLoot from "@components/SyntheticLoot";
 import { Project } from "../types/interface";
 const loot: Project = {
-  name: "Loot (for Adventurers)",
-  description: "The original 8,000 OG Loot bags. ",
+  name: "Monster (0xmonster)",
+  description: "The original 555 pixel monsters. ",
   whatToDo: [
     {
       content: "EVOKE one from the beyond",
@@ -341,40 +341,37 @@ const stakeARealm: Project = {
 };
 
 const genesisAdventurer: Project = {
-  name: "Genesis Loot",
-  description: "The 2,540 bags of Genesis Loot were carried by the original 'Genesis Adventurers.' Through teamwork and collaboration, players resurrect Genesis Adventurers to protect and champion their ancestral Orders.",
+  name: "Genesis Monsters",
+  description: "The 120 Genesis Monsters were evoked by the original 'Genesis Adventurers.' Through teamwork and collaboration, players summon Genesis Monsters to protect and champion their ancestral Orders.",
   whatToDo: [
     {
-      content: "Resurrect a Genesis Adventurer",
-      url: "https://genesisproject.notion.site/"
+      content: "Summon a Genesis Monster",
+      url: "https://0xmonster.com/#/summon"
     },
     {
-      content: "Trade on OS",
-      url: "https://opensea.io/collection/genesisadventurer"
+      content: "Trade on OpenSeS",
+      url: "https://opensea.io/collection/monster"
     },
   ],
   website: {
-    url: "https://genesisproject.xyz/"
+    url: "https://0xmonster.com/"
   },
   contract: {
-    content: "0x8db687aceb92c66f013e1d614137238cc698fedb"
+    content: "0x6e0957Afc65FDED823A917F15A15aD986b5f4f03"
   },
   twitter: {
-    url: "https://twitter.com/genesisloot"
+    url: "https://twitter.com/0xmonster"
   },
   discord: {
-    url: "https://discord.gg/YUYyPSuwfU"
+    url: "https://discord.gg/dJwEJaQ43d"
   },
   opensea: {
-    url: "https://opensea.io/collection/genesisadventurer"
+    url: "https://opensea.io/assets/0x6e0957afc65fded823a917f15a15ad986b5f4f03/1"
   },
-  github: {
-    url: "https://github.com/genesisproject4loot/genesisadventurer"
-  },
-  image: "/genesis.svg",
+  image: "/mon_1.gif",
   neededProject: genesisMana,
   mintPrice: {
-    mint: 0.25
+    mint: 0.05
   }
 };
 const lootMartAssemble: Project = {
