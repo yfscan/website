@@ -5,29 +5,29 @@ const loot: Project = {
   description: "The original 8,000 OG Loot bags. ",
   whatToDo: [
     {
-      content: "Trade on Loot.exchange",
-      url: "https://www.loot.exchange/"
+      content: "EVOKE one from the beyond",
+      url: "https://0xmonster.com/#/summon"
     },
     {
       content: "Trade on OpenSea",
-      url: "https://opensea.io/collection/lootproject"
+      url: "https://opensea.io/collection/monster"
     }
 
   ],
   contract: {
-    content: "0xff9c1b15b16263c61d017ee9f65c50e4ae0113d7",
+    content: "0x6e0957Afc65FDED823A917F15A15aD986b5f4f03",
     url: "https://etherscan.io/"
   },
   twitter: {
-    url: "https://twitter.com/lootproject"
+    url: "https://twitter.com/0xmonster"
   },
   discord: {
-    url: "https://discord.com/invite/23gbrJ6pje"
+    url: "https://discord.gg/dJwEJaQ43d"
   },
   opensea: {
-    url: "https://opensea.io/collection/lootproject"
+    url: "https://opensea.io/collection/monster"
   },
-  image: "/lootheader.svg"
+  image: "/monsterproject.png"
 };
 
 const mLoot: Project = {
